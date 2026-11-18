@@ -1,5 +1,4 @@
-/* Voidraider brand tokens: shared by print/ (playtest printables) and book/ (rulebook).
-   Canonical spec: docs/design/visual-identity.md and docs/design/trade-dress.md. */
+/* Website palette from docs/design/visual-identity.md and docs/design/trade-dress.md. */
 
 :root {
   --ink: #15181c;
@@ -22,13 +21,12 @@
   --steelblue: #3e6e91;  /* Specter; distinct from neutral gunmetal */
   --steelblue-hi: #8db8d8;
 
-  /* Brand: Void Rift. Near-black void bands, one ultraviolet-magenta rift colour.
-     The six archetype accents above stay functional colour codes. */
-  --void: #0e0b16;
-  --rift: #e8199b;
-  --rift-hi: #ff4fc3;
+  --void: #080e18;
+  --brand-gunmetal: #18283b;
+  --rift-blue: #165ead;
+  --arc-cyan: #25c8f2;
 
-  /* Open-licensed (SIL OFL) brand faces, loaded by build.py. */
+  /* Open-licensed functional typefaces. */
   --display: "Rajdhani", "Arial Narrow", sans-serif;
   --text: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
 }
