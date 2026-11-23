@@ -144,6 +144,11 @@ nav a:hover, .wordmark:hover, .site-footer a:hover { color: var(--arc-cyan); }
 }
 .checkpoint-photos img { display: block; width: 100%; height: auto; }
 .checkpoint-photos figcaption { margin-top: .4rem; color: var(--gunmetal); font-size: 1rem; }
+.missions { display: grid; gap: 1.25rem; }
+.mission h3 + p { margin-top: 0; }
+.mission .downloads { margin-top: .5rem; }
+.kit h4 { margin-top: 0; }
+.kit h4 span { color: var(--gunmetal); font: 400 .95rem var(--text); letter-spacing: 0; text-transform: none; }
 .mission { padding: clamp(1.25rem, 3vw, 2rem); border-top: .25rem solid var(--rift-blue); background: var(--paper); }
 .kicker { color: var(--gunmetal); font-weight: 700; font-size: 1rem; letter-spacing: .12em; text-transform: uppercase; }
 .mission h3 { margin-block: .45rem .85rem; font-size: clamp(2rem, 4vw, 3.3rem); }
